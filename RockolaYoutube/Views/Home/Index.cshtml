@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">  <strong>Play your Music</strong></h1>
+        <p class="lead"><em>Watch your favorite music videos here.</em></p>
+    </div>
+</div>
+
+<h2>Getting started</h2>
+<p>
+    <input type="text" class="form-control" id="txtkeyword" placeholder="Search Videos" />
+</p>
+<p><a class="btn btn-primary btn-sm" href="javascript:void(0)" onclick="btnSearch()">search</a></p>
+
+<div class="row">
+    
+    <div class="col-md-7">
+        <div id="player"></div>
+
+    </div>
+    <div  class="col-md-5">
+        <div class="container" id="ListYoutube">
+
+        </div>
+    </div>
+</div>
+
+<script>
+
+    function btnSearch()
+    {
+        $.ajax(
+            {
+                url: '@Url.Action("SearchVideo")?keyword=' + $('#txtkeyword').val(),
+                type: 'GET',
+                success: function (result)
+                {
+                    $('#ListYoutube').html(result);
+                }
+
+            });
+    }
+
+</script>
