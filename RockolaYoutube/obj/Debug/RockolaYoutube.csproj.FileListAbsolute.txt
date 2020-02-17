@@ -91,3 +91,10 @@ C:\Users\Curso\source\repos\RockolaYoutube\RockolaYoutube\obj\Debug\RockolaYoutu
 C:\Users\Curso\source\repos\RockolaYoutube\RockolaYoutube\obj\Debug\RockolaYoutube.csproj.CopyComplete
 C:\Users\Curso\source\repos\RockolaYoutube\RockolaYoutube\obj\Debug\RockolaYoutube.dll
 C:\Users\Curso\source\repos\RockolaYoutube\RockolaYoutube\obj\Debug\RockolaYoutube.pdb
+C:\Users\Curso\source\repos\RockolaYoutube\RockolaYoutube\bin\System.Net.Http.dll
+C:\Users\Curso\source\repos\RockolaYoutube\RockolaYoutube\bin\System.Net.Http.Formatting.dll
+C:\Users\Curso\source\repos\RockolaYoutube\RockolaYoutube\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Curso\source\repos\RockolaYoutube\RockolaYoutube\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Curso\source\repos\RockolaYoutube\RockolaYoutube\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Curso\source\repos\RockolaYoutube\RockolaYoutube\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Curso\source\repos\RockolaYoutube\RockolaYoutube\bin\System.Net.Http.Formatting.xml
